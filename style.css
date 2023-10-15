@@ -1,0 +1,118 @@
+/* We resetted the styles here*/
+body,
+h1,
+p,
+form,
+table {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/*colors are decided for the body element*/
+
+table,
+th,
+td {
+  border: 1px solid #ccc; /* Borders for table, header, and cells */
+}
+
+th,
+td {
+  padding: 10px; /* Padding inside header and cells */
+  text-align: left; /* Text aligned to the left */
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/*In our assignment header.php was a must. Style of header.php*/
+.mainheader {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*Image size decided*/
+.mainheader img {
+  width: 60px;
+  margin-right: 25px;
+}
+
+/**/
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px; /*Space between employee info and employee information */
+}
+
+/*Underlining the links*/
+nav a:hover {
+  text-decoration: underline;
+}
+
+.form-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 75%; /*Form will form the 75% of the page*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*Styling labels and deciding spaces between the labels*/
+.form label {
+  margin-bottom: 3px;
+  display: block;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form textarea {
+  width: 100%; /*Form elemtns need to fill the box*/
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #797777;
+  border-radius: 5px;
+}
+
+.form .button {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*Button background color and text will exchange colors when hovered over*/
+.form .button:hover {
+  background-color: #356;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/*header*/
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
